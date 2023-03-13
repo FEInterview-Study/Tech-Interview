@@ -13,7 +13,7 @@
 > state의 값이 변경되어 리렌더링이 되어야 하는 경우, setState로 리렌더를 트리거 하기위해서 state로 처리되어야합니다.
 
 5. useState의 리턴값은 어떤건가요?
-> [state, setState]의 한 객체입니다.
+> [state, setState]의 배열입니다.
 
 6. setState가 처리되는 방식을 알려주세요
 > setState()는 컴포넌트의 state 객체에 대한 업데이트를 실행합니다. state가 변경되면, 컴포넌트는 리렌더링됩니다.
